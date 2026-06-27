@@ -1,23 +1,26 @@
 # https://www.linux.org.ru/articles/development/17708303
 services:
-  qwen25coder14b:
-    image: ghcr.io/ggml-org/llama.cpp:server
-    ports:
-      - "8080:8080"
-    volumes:
-      - ./models:/models
+#  qwen25coder14b:
+#    image: ghcr.io/ggml-org/llama.cpp:server
+#    ports:
+#      - "8080:8080"
+#    volumes:
+#      - ./models:/models
+#      - ./llm-cache:/llm-cache
     #command: -c 2048 -t 4 -m models/codellama-7b-instruct.Q4_K_M.gguf --host 0.0.0.0 --port 8080
-    command: --verbose -m /models/Qwen2.5-Coder-14B-GGUF/Qwen2.5-Coder-14B-Q4_K_M.gguf --host 0.0.0.0 --port 8080
+    #command: --slot-save-path /llm-cache --verbose -m /models/Qwen2.5-Coder-14B-GGUF/Qwen2.5-Coder-14B-Q4_K_M.gguf --host 0.0.0.0 --port 8080
+    #command: --slot-save-path /llm-cache -m /models/Qwen2.5-Coder-14B-GGUF/Qwen2.5-Coder-14B-Q4_K_M.gguf --host 0.0.0.0 --port 8080
+#    command: --slot-save-path /llm-cache -m /models/Qwen2.5-Coder-14B-GGUF/Qwen2.5-Coder-14B-Q4_K_M.gguf --host 0.0.0.0 --port 8080
     #restart: unless-stopped
-
   northminicode1:
     image: ghcr.io/ggml-org/llama.cpp:server
     ports:
       - "8081:8080"
     volumes:
       - ./models:/models
+#    command: -m /models/unsloth/North-Mini-Code-1.0-GGUF/North-Mini-Code-1.0-UD-IQ2_XXS.gguf --host 0.0.0.0 --port 8080
 #    command: -c 2048 -t 4 -m /models/unsloth/North-Mini-Code-1.0-GGUF/North-Mini-Code-1.0-UD-IQ2_XXS.gguf --host 0.0.0.0 --port 8080
-    command: -m /models/unsloth/North-Mini-Code-1.0-GGUF/North-Mini-Code-1.0-UD-IQ2_XXS.gguf --host 0.0.0.0 --port 8080
+    command: -m /models/unsloth/North-Mini-Code-1.0-GGUF/North-Mini-Code-1.0-UD-Q8_K_XL.gguf --host 0.0.0.0 --port 8080
 #    restart: unless-stopped
 
 #  starcoder2:

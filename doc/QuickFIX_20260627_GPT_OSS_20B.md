@@ -23,12 +23,12 @@ available commands:
   /clear              clear the chat history
   /read <file>        add a text file
   /glob <pattern>     add text files using globbing pattern
-</pre>
+</pre> 
 
 > Мне нужен работающий пример на C++ периодического получения, накопления и обновления котировок посредством протокола FIX по инструменту EURUSD с использованием библиотеки QuickFIX и сохранением результата полученных котировок в PostgreSQL, при сборке проекта используй CMake
 
 <details>
-<summary><img src=Reasoning.png></summary>
+<summary><img src=img/Reasoning.png></summary>
 <pre>
 [Start thinking]
 The user wants a working example in C++ for periodic receiving, accumulating and updating quotes via FIX for instrument EURUSD using QuickFIX, storing results in PostgreSQL, building with CMake. Provide code and instructions. We need to give a sample application that uses QuickFIX, receives market data updates (MDEntries) for EURUSD, accumulates them, and updates a PostgreSQL database with latest quotes.

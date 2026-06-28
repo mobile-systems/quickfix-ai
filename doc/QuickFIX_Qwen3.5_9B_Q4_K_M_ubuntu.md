@@ -272,6 +272,6 @@ clang++ -std=c++17 -I"$HEADER_PATH" -L"$LIB_PATH" -lquickfix -o quickfix_example
 
 Этот пример полностью совместим с Ubuntu 26.04 и использует современные методы установки зависимостей через `vcpkg`.
 
-<img src=QuickFIXubuntu_2026-06-22_211544.png>
+<img src=img/QuickFIX_20260622_211544.png>
 
 > $ llama-server -m .lmstudio/models/lmstudio-community/Qwen3.5-9B-GGUF/Qwen3.5-9B-Q4_K_M.gguf --port 8080

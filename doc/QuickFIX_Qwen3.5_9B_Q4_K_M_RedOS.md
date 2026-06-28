@@ -1,3 +1,4 @@
+<pre>
 [ocheretin@localhost workspace]$ ./llama.cpp/build/bin/llama-cli --model models/Qwen3.5-9B-GGUF/Qwen3.5-9B-Q4_K_M.gguf --reasoning off
 
 Loading model...  
@@ -21,7 +22,7 @@ available commands:
   /clear              clear the chat history
   /read <file>        add a text file
   /glob <pattern>     add text files using globbing pattern
-
+</pre>
 
 # Как подключить QuickFIX на C++ пример использования с cfg
 

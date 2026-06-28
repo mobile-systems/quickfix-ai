@@ -1,3 +1,4 @@
+<pre>
 [ocheretin@localhost ~]$ cd ~/workspace/ && ./llama.cpp/build/bin/llama-cli --model models/unsloth/North-Mini-Code-1.0-GGUF/North-Mini-Code-1.0-UD-Q3_K_M.gguf --reasoning off
 
 Loading model...  
@@ -21,7 +22,7 @@ available commands:
   /clear              clear the chat history
   /read <file>        add a text file
   /glob <pattern>     add text files using globbing pattern
-
+</pre>
 
 > Пример получения котировок по EURUSD с использованием QuickFIX на C++ и сохранением их в PostgreSQL
 

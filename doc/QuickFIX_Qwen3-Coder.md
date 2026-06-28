@@ -1,3 +1,4 @@
+<pre>
 alexa@DellPro MINGW64 ~/spread/fix (master)
 $ llama-cli -m ~/.lmstudio/models/lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-GGUF/Qwen3-Coder-30B-A3B-Instruct-Q3_K_L.gguf
 
@@ -22,7 +23,7 @@ available commands:
   /clear              clear the chat history
   /read <file>        add a text file
   /glob <pattern>     add text files using globbing pattern
-
+</pre>
 
 > Как подключить QuickFIX на C++ пример использования с cfg, получением котировок по инструменту EURUSD и записью в PostgreSQL
 

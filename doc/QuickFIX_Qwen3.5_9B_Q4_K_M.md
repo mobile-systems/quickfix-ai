@@ -288,6 +288,6 @@ clang++ -std=c++17 -o fix_example main.cpp
 Этот шаблон дает вам основу для построения полноценного FIX-клиента или сервера на C++.
 
 <!--img src=QuickFIX_2026-06-22_211321.png-->
-<img src=QuickFIX_2026-06-22_211332.png>
+<img src=img/QuickFIX_20260622_211332.png>
 
 > $ llama-server -m .lmstudio/models/lmstudio-community/Qwen3.5-9B-GGUF/Qwen3.5-9B-Q4_K_M.gguf --port 8080

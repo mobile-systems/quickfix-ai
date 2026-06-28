@@ -2,7 +2,7 @@
 
 
 <details>
-<summary><img src=Reasoning.png></summary>
+<summary><img src=img/Reasoning.png></summary>
 <pre>
 Мы создадим простой пример подключения к биржевому серверу с использованием QuickFIX на C++.
 Для этого нам понадобится:
@@ -161,12 +161,12 @@ int main() {
 **7. Дополнительные классы**:
 Для работы с конкретными версиями FIX (например, FIX.4.2) потребуется создать унаследованный класс от `QuickFIX::Application`. В примере используется `mf4::Order`, который предполагает использование `QuickFIX::examples` модуля.
 
-<img src=QuickFIX_ds_2026-06-22_220024.png>
+<img src=img/QuickFIX_20260622_220024.png>
 
 
 # пример с получением котировок по инструменту EURUSD и записью в PostgreSQL
 
-<img src=Reasoning.png>
+<img src=img/Reasoning.png>
 <pre>
 Мы создадим пример клиента QuickFIX, который будет получать котировки (спот-котировки) по инструменту EUR/USD и записывать их в PostgreSQL.
 Для этого нам понадобится:
@@ -460,7 +460,7 @@ CREATE TABLE quotes (
 3. Убедиться, что брокер поддерживает запрашиваемые тэги данных
 4. Добавить необходимые обработчики ошибок
 
-<img src=QuickFIX_ds_2026-06-22_223602.png>
+<img src=img/QuickFIX_20260622_223602.png>
 
 
 > $ llama-server -m .lmstudio/models/lmstudio-community/DeepSeek-R1-0528-Qwen3-8B-GGUF/DeepSeek-R1-0528-Qwen3-8B-Q8_0.gguf --port 8080

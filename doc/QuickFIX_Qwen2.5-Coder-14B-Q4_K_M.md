@@ -1,3 +1,4 @@
+<pre>
 [ocheretin@localhost workspace]$ cd ~/workspace/ && ./llama.cpp/build/bin/llama-cli --model models/Qwen2.5-Coder-14B-GGUF/Qwen2.5-Coder-14B-Q4_K_M.gguf --reasoning off 
 Loading model...  
 
@@ -20,7 +21,7 @@ available commands:
   /clear              clear the chat history
   /read <file>        add a text file
   /glob <pattern>     add text files using globbing pattern
-
+</pre>
 
 > Пример получения котировок по EURUSD с использованием QuickFIX на C++ и сохранением их в PostgreSQL
 

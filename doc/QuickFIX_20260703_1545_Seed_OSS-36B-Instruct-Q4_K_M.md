@@ -580,6 +580,7 @@ Create `grafana/provisioning/dashboards/hft-dashboard.json` with sample queries 
 - The example assumes a FIX acceptor (broker) is available. For testing, use QuickFIX Engine's TestAcceptor: https://github.com/quickfix/quickfix/tree/master/test/acceptor.
 - Adjust the instrument list, FIX configuration, and database schema to match your needs.
 - For production, add more error handling, logging (e.g., ELK stack), and security measures (e.g., SSL for FIX sessions, encrypted DB connections).
+
 [End thinking]
 
 ### Comprehensive HFT FIX Application with PostgreSQL and Grafana
